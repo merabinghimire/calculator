@@ -1,11 +1,12 @@
 body{
     background-color: #2ACAD4;
     margin: 40px 50px;
+    align-items: center;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: #C4C4C4;
+  
     padding: 10px;
     grid-gap: 20px 50px;
   }
@@ -50,4 +51,11 @@ body{
     align-items: center;
     opacity: 1;
     
+  }
+
+  #result{
+    padding: 20px;
+    border-radius: 10px;
+
+
   }
